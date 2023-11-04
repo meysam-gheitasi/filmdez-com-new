@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="fa" className={vazirFont.className}>
+    <html lang="fa-IR" className={vazirFont.className}>
       <body dir='rtl'>
         <Navbar />
         {children}
