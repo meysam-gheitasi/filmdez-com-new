@@ -25,7 +25,9 @@ export default function RootLayout({
     <html lang="fa-IR" className={vazirFont.className}>
       <body dir='rtl'>
         <Navbar />
-        {children}
+        <main className='relative overflow-hidden min-h-screen bg-black-100'>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
