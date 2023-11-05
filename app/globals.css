@@ -2,3 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+.flex-center {
+    @apply flex justify-center items-center;
+}
+
+.flex-between {
+    @apply flex justify-between items-center;
+}
+
+.flex-start {
+    @apply flex justify-start items-center;
+}
+
+.body-text {
+    @apply text-[16px] leading-[22px] font-normal;
+}
+
+.text-gradient_blue-purple {
+    background: linear-gradient(90deg, #4ca5ff 0%, #b573f8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.hover:hover {
+    @apply text-slate-400 duration-300;
+}
+
+.sub-menu {
+    background-color: rgb(22 27 34 / var(--tw-bg-opacity));
+    @apply hidden absolute left-0 top-5 text-xs rounded-md group-hover:grid justify-start pe-4 ps-1 pt-2 pb-4 gap-y-3;
+}
+
+.white-svg {
+    filter: brightness(0) invert(1);
+}
+
+.nav-padding {
+    @apply pt-[130px];
+}
+
+.fade-in-up-title {
+    background: #fcb900;
+    color: #101014;
+}
