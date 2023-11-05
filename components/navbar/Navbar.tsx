@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 
-import { NAV_ACCOUNT, NAV_MENU_MOVIES_FOREIGN, NAV_MENU_IRANIAN, NAV_MENU_SERIES, SVG_NAVBAR } from "@/app/constants"
+import { NAV_ACCOUNT, SVG_NAVBAR } from "@/app/constants"
 
 //LOGO IMAGE
 import logo from "@/public/assets/logo-filmdez.svg"
