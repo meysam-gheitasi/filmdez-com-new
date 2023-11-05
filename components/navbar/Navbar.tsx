@@ -9,7 +9,7 @@ import logo from "@/public/assets/logo-filmdez.svg"
 export default function Navbar() {
   return (
     <nav className="w-full flex-center fixed top-0 z-50 border border-b-2 border-black-200 bg-black-100 text-white-800">
-      <div className="flex-between w-full max-3xl:max-w-screen-xl body-text !text-xm py-3 px-4">
+      <div className="flex-between max-w-screen-xl w-full body-text !text-xm py-3 px-4">
 
         {/* LOGIN & SINGUP */}
         <div className="max-lg:hidden flex-center gap-x-3">

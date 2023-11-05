@@ -5,11 +5,15 @@ import { NAV_MENU_MOVIES_FOREIGN, NAV_MENU_IRANIAN, NAV_MENU_SERIES } from "@/ap
 
 export default function MenuNavbar() {
     return (
-        <div className="flex items-center w-full bg-black-200 text-white-800 pt-32">
-            <div className="flex-between w-full max-3xl:max-w-screen-xl body-text !text-xm py-3 px-4">
+        <div className="flex-center w-full bg-black-400 border-b-2 border-black-200 text-white-800">
+            <div className="flex-between  max-w-screen-xl w-full body-text !text-xm py-3 px-4">
                 {/* Main-Menu */}
-                <div className="max-md:hidden flex-center gap-x-3">
+                <div className="max-md:hidden flex-center gap-x-6">
 
+                    {/* HOME */}
+                    <div>
+                        <span className="body-text">خانه</span>
+                    </div>
                     {/* MENU 1 */}
                     <div className="flex-center gap-x-3">
                         <div className="flex-center" >
@@ -85,6 +89,11 @@ export default function MenuNavbar() {
                         </div>
                     </div>
 
+                </div>
+                <div className="flex-center py-3 px-4 rounded-md bg-black-200">
+                    <span>
+                        این یک پیغام نمایشی از طرف مدیریت وب سایت است
+                    </span>
                 </div>
             </div>
         </div>
