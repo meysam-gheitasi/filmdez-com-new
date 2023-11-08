@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 }
 
 const vazirFont = localFont({
-  src: '../public/fonts/Vazirmatn-Regular.woff2'
+  src: '../public/fonts/Yekan.woff'
 })
 
 export default function RootLayout({
