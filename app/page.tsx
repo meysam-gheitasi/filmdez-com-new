@@ -1,11 +1,16 @@
 import MenuNavbar from "@/components/navbar/MenuNavbar";
+import TopSlider from "@/components/sliders/TopSlider";
 
 export default function Home() {
   return (
-    <div className="flex-center mx-auto w-full flex-col relative pb-12">
+    <div className="flex-center mx-auto w-full flex-col relative top-[123px] pb-12">
       
-      <section className="flex-center w-full absolute top-[123px] right-0">
+      <section className="flex-center w-full">
         <MenuNavbar />
+      </section>
+
+      <section className="w-full">
+        <TopSlider />
       </section>
 
     </div>
