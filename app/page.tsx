@@ -11,7 +11,7 @@ export default function Home() {
       </section>
 
       <section className="w-full">
-        <SecondSlider />
+        
       </section>
 
     </div>
