@@ -1,4 +1,5 @@
 import MenuNavbar from "@/components/navbar/MenuNavbar";
+import SecondSlider from "@/components/sliders/SecondSlider";
 import TopSlider from "@/components/sliders/TopSlider";
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
       </section>
 
       <section className="w-full">
-        <TopSlider />
+        <SecondSlider />
       </section>
 
     </div>

@@ -13,9 +13,6 @@ import 'swiper/css/navigation';
 // import required modules
 import { Navigation, Pagination, Autoplay } from 'swiper/modules'
 
-import SwiperCore from 'swiper';
-SwiperCore.use([Navigation, Pagination, Autoplay]);
-
 export default function TopSlider() {
     return (
         <>
@@ -31,7 +28,7 @@ export default function TopSlider() {
             >
 
                 <SwiperSlide>
-                    <Image className='!object-cover h-[600px] w-full'
+                    <Image className='!object-cover h-[700px] w-full'
                         src="https://swiperjs.com/demos/images/nature-1.jpg"
                         loading="lazy"
                         alt='slieder image'
