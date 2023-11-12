@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from "next/image"
 import FooterMenu from './FooterMenu'
 
-import { FOOTER_CONFIRMATION, FOOTER_SOCIAL } from '@/../constants/index'
+import { FOOTER_CONFIRMATION, FOOTER_SOCIAL } from "@/app/constants"
 
 export default function Footer() {
   return (

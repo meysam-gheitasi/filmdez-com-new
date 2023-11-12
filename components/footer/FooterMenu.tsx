@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import { FOOTER_MENU } from "../../../../constants"
+import { FOOTER_MENU } from "@/app/constants"
 import Link from "next/link"
 
 export default function FooterMenu() {
