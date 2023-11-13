@@ -1,6 +1,13 @@
 import MenuNavbar from "@/components/navbar/MenuNavbar";
 import SecondSlider from "@/components/sliders/SecondSlider";
+import PackSlider from "@/components/sliders/PackSlider";
 import TopSlider from "@/components/sliders/TopSlider";
+
+//DATAS
+import movies from '@/app/constants/data/sliderMoviesData.json'
+
+
+
 
 export default function Home() {
   return (
@@ -11,7 +18,7 @@ export default function Home() {
       </section>
 
       <section className="w-full">
-        
+        <PackSlider movies={movies} />
       </section>
 
     </div>
