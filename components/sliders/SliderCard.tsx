@@ -30,13 +30,13 @@ export default function SliderCard({ movies }: MoviesProp) {
         <>
             <div className="flex-center flex-col">
                 <div className="flex-center w-full">
-                    <Image className="object-fill max-md:max-h-[300px] max-h-[650px]" alt="movie poster" src={movies.Poster}
+                    <Image className="object-fill max-3xl:max-w-xl max-lg:max-w-lg max-lg:max-h-[450px] max-h-[650px]" alt="movie poster" src={movies.Poster}
                         sizes="100vw"
                         width={1200}
                         height={400}
                     />
                     <div className="flex-center">
-                        <h1>{movies.Title}</h1>
+                        
                     </div>
                 </div>
             </div>
