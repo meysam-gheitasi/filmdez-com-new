@@ -14,7 +14,7 @@
         "Language": "English",
         "Country": "United States, Mexico, Canada",
         "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMmJhYjBkMzgtZGIwMC00YTAzLWE4NTQtYzVkNDVmYjIzODI0XkEyXkFqcGdeQXVyODQxMTI4MjM@._V1_SX300.jpg",
+        "Poster": "/images/slider/home1.jpg",
         "imdbRating": "7.3",
         "Type": "movie",
         "Response": "True"
@@ -34,7 +34,7 @@
         "Language": "English",
         "Country": "United States",
         "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BNDUyNTIzNDQtYTZmMi00M2FlLTgyZjUtYWViZWNhMDYzMjE4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg",
+        "Poster": "/images/slider/home2.jpg",
         "imdbRating": "7.2",
         "Type": "movie",
         "Response": "True"
@@ -55,7 +55,7 @@
         "Language": "Spanish",
         "Country": "Spain",
         "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BNmEyOWU2NjctMzY0Zi00NzBkLTg3YzAtNDI3MGE4ZTkyZTQ0XkEyXkFqcGdeQXVyMzQyMDgzOTU@._V1_SX300.jpg",
+        "Poster": "/images/slider/home3.jpg",
         "imdbRating": "6.4",
         "Type": "movie",
         "Response": "True"
@@ -76,7 +76,7 @@
         "Language": "English",
         "Country": "United States",
         "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMzVjZWUzNDUtZTQxMi00N2QzLWJjMzQtZTc4ZTU2YWEzNDA3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+        "Poster": "/images/slider/home4.jpg",
         "imdbRating": "N/A",
         "Type": "movie",
         "Response": "True"
