@@ -11,7 +11,7 @@
 }
 
 .flex-start {
-    @apply flex justify-start items-center;
+    @apply flex justify-center items-start;
 }
 
 .body-text {
@@ -47,3 +47,27 @@
     background: #fcb900;
     color: #101014;
 }
+
+.slider-card-responsive {
+    height: 100vh;
+}
+@media(max-width:1024px) {
+    .slider-card-responsive {
+        height: 60vh;
+    }
+}
+
+.fade-in-up {
+    background: linear-gradient(to bottom, transparent 20%, transparent 100px, #101014 100%);
+    border-radius: 10px;
+    @apply opacity-90
+}
+
+.bg-texure-title-slider {
+    background-image: url('../public/images/slider/texure.jpg');
+    @apply bg-clip-text text-transparent bg-repeat text-clip;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+

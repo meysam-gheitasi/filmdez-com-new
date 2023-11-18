@@ -5,7 +5,7 @@ import { NAV_MENU_MOVIES_FOREIGN, NAV_MENU_IRANIAN, NAV_MENU_SERIES } from "@/ap
 
 export default function MenuNavbar() {
     return (
-        <div className="flex-center w-full bg-black-400 border-b-2 border-black-200 text-white-800">
+        <div className="flex-center w-full bg-black-400 border-b-2 border-black-200 text-white-800 z-30">
             <div className="flex-between  max-w-screen-xl w-full text-sm py-3 px-4">
                 {/* Main-Menu */}
                 <div className="max-md:hidden flex-center gap-x-6">

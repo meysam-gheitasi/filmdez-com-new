@@ -16,7 +16,7 @@ export default function Navbar() {
           {/* LOGIN & SINGUP */}
           <div className="max-lg:hidden flex-center gap-x-3">
             {NAV_ACCOUNT.map(item =>
-              <div className="flex-center text-xs font-bold pb-1" key={item.key}>
+              <div className="flex-center text-md font-bold pb-1" key={item.key}>
                 <Link className="hover flex-center gap-x-2" href={item.slug}>
                   <Image className="white-svg object-contain" alt="logo website" src={item.icon} priority={false} width={22} height={18} />
                   {item.title}

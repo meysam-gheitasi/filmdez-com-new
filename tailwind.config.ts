@@ -38,7 +38,7 @@ const config: Config = {
           400: "#242C38",
         },
         red: {
-          netflex: "#e50813"
+          netflex: "#e50813",
         },
         grey: {
           100: "#969BA5",
