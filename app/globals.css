@@ -26,13 +26,17 @@
     text-fill-color: transparent;
 }
 
+.gradient {
+    @apply from-indigo-900  to-indigo-500
+}
+
 .hover:hover {
     @apply text-slate-400 duration-300;
 }
 
 .sub-menu {
     background-color: rgb(22 27 34 / var(--tw-bg-opacity));
-    @apply hidden absolute left-0 top-5 text-xs rounded-md group-hover:grid justify-start pe-4 ps-1 pt-2 pb-4 gap-y-3;
+    @apply hidden absolute left-0 top-5 text-sm rounded-md group-hover:grid justify-start pe-4 ps-1 pt-4 mt-2 pb-3 gap-y-3;
 }
 
 .white-svg {
@@ -49,11 +53,11 @@
 }
 
 .slider-card-responsive {
-    height: 100vh;
+    height: 90vh;
 }
 @media(max-width:1024px) {
     .slider-card-responsive {
-        height: 60vh;
+        height: 55vh;
     }
 }
 
@@ -71,3 +75,21 @@
     -webkit-font-smoothing: antialiased;
 }
 
+.control-btn {
+    @apply text-white-400  bg-none border rounded-full border-l-grey-100 w-10 h-10;
+    @apply cursor-pointer z-30 max-lg:opacity-5;
+}
+
+.next {
+    @apply absolute right-3 max-lg:right-0 max-lg:!top-1/2;
+    top: 48%;
+}
+
+.prev {
+    @apply absolute left-3 max-lg:left-0 max-lg:!top-1/2;
+    top: 48%;
+}
+
+.body-text {
+    @apply text-[16px] leading-[22px] font-normal;
+  }

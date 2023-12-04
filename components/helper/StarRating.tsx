@@ -12,17 +12,17 @@ const StarRating: React.FC<StarRatingProps> = ({ rating }) => {
     const fullStars = Math.floor(rating)
     const hasHalfStar = rating - fullStars > 0
 
-    if (hasHalfStar) {
-      stars.push(<FontAwesomeIcon icon={faStarHalf} size='xs' style={{ color: "#e50813", }} />)
-    }
     for (let i = 0; i < fullStars; i++) {
-      stars.push(<FontAwesomeIcon icon={faStar} size='xs' style={{ color: "#e50813", }} />)
+      stars.push(<FontAwesomeIcon icon={faStar} size='xs'  />)
+    }
+    if (hasHalfStar) {
+      stars.push(<FontAwesomeIcon icon={faStarHalf} size='xs'  />)
     }
 
     return stars
   }
 
-  return <div className='flex w-16 min-h-fit !h-5'>{createStars()} </div>
+  return <div className='flex w-16 min-h-fit !h-5 text-yellow-400'>{createStars()} </div>
 }
 
 export default StarRating
