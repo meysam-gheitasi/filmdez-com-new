@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export default function FooterMenu() {
     return (
-        <div className='hidden max-lg:grid grid-cols-3 fixed bottom-0 gap-x-2 0 left-0 right-0 w-full bg-black-400 h-16 z-50'>
+        <div className='hidden max-lg:grid grid-cols-4 fixed bottom-0 gap-x-2 0 left-0 right-0 w-full bg-black-400 h-16 z-50'>
             {
                 FOOTER_MENU.map(item => (
                     <div className='flex-center'>

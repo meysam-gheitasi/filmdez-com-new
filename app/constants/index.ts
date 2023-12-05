@@ -39,6 +39,7 @@ export const FOOTER_CONFIRMATION = [
 ]
 // FOOTER-MENU-MOBILE
 export const FOOTER_MENU = [
+    { slug: '/search', key: 'search', icon: '/assets/icons/navbar/search.svg', title: 'جستجو' },
     { slug: '/', key: 'home_footer', icon: '/assets/icons/footer/home.svg', title: 'خانه' },
     { slug: '/genre-all', key: 'categories_footer', icon: '/assets/icons/footer/categories.svg', title: 'دسته بندی ها' },
     { slug: '/singin', key: 'singin_footer', icon: '/assets/icons/footer/my_account.svg', title: 'حساب کاربری' },
